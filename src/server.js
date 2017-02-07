@@ -10,10 +10,6 @@ const urlStruct = {
   '/': htmlHandler.getIndex,
   '/success': jsonHandler.success,
   '/badRequest': jsonHandler.badRequest,
-  '/unauthorized': jsonHandler.unauthorized,
-  '/forbidden': jsonHandler.forbidden,
-  '/internal': jsonHandler.internalError,
-  '/notImplemented': jsonHandler.notImplemented,
   notFound: jsonHandler.notFound,
 };
 

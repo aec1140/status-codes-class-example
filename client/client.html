@@ -45,12 +45,7 @@
     const init = () => {
       const successButton = document.querySelector("#success");
       const badRequestButton = document.querySelector("#badRequest");
-      const unauthButton = document.querySelector("#unauthorized");
-      const forbidButton = document.querySelector("#forbidden");
-      const internalButton = document.querySelector("#internal");
-      const notImplementedButton = document.querySelector("#notImplemented");
       const notFoundButton = document.querySelector("#notFound");
-      
 
       
     };
@@ -69,22 +64,6 @@
     <p>
       Go to <b>/badRequest</b> to test a <b>400 Bad Request.</b> 
       <button id="badRequest">Bad Request</button>
-    </p>
-    <p>
-      Go to <b>/unauthorized</b> to test a <b>401 Unauthorized.</b> 
-      <button id="unauthorized">Unauthorized</button>
-    </p>
-    <p>
-      Go to <b>/forbidden</b> to test a <b>403 Forbidden.</b> 
-      <button id="forbidden">Forbidden</button>
-    </p>
-    <p>
-      Go to <b>/internal</b> error to test a <b>500 Internal Server Error.</b> 
-      <button id="internal">Internal</button>
-    </p>
-    <p>
-      Go to <b>/notImplemented</b> to test a <b>501 Not Implemented.</b> 
-      <button id="notImplemented">Not Implemented</button>
     </p>
     <p>
       Go to <b>any other URL</b> to test a <b>404 Not Found.</b> 
